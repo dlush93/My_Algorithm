@@ -1,14 +1,14 @@
-# arr = [list([i]*5) for i in range(1,6)]
-#
-# for i in range(len(arr)):
-#     for j in range(len(arr[0])):
-#         print(arr[i][j])
-#
-# for j in range(len(arr[0])):
-#     for i in range(len(arr)):
-#         print(arr[i][j])
-#
-N = int(input())
-for i in range(1,N+1):
-    for j in range(1,10):
-        print('{} X {} = {}'.format(i,j,i*j))
+test = int(input())
+for t in range(1, test+1):
+    A = input()
+    a = len(A)
+    arr0 = arr4 = '..#' + '...#'*(a-1)+'..'
+    arr1 = arr3 = '.' + '#.#.'*(a)
+    arr2 = '#'
+    for i in range(a):
+        arr2 = arr2 + '.'+ A[i] + '.#'
+    print(arr0)
+    print(arr1)
+    print(arr2)
+    print(arr3)
+    print(arr4)
