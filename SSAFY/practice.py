@@ -1,2 +1,1 @@
-a = [list(map(int, input().split())) for i in range(100)]
-print(sum(a))
+a = [1,2,3,4,5,6,1,2,3,4,3]
