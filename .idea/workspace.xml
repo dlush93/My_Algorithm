@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c5fbe3-2f0a-4362-8d80-adaf0c94cbdb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SSAFY/D2/4864. 문자열 비교.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSAFY/D2/1979. 어디에 단어가 들어갈 수 있을까.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSAFY/D2/1979. 어디에 단어가 들어갈 수 있을까.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SSAFY/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSAFY/practice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,53 +49,73 @@
     <session id="-1901595470">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="6" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="7" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="79" />
+          <entry key="asd" value="1" />
+          <entry key="py" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="79" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="py" value="28262" />
+          <entry key="py" value="32852" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="24" />
-          <entry key="Python" value="28262" />
+          <entry key="Python" value="32852" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SSAFY/practice.py">
+        <entry file="file://$PROJECT_DIR$/SSAFY/D2/4861. 회문.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="76">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SSAFY/D2/1979. 어디에 단어가 들어갈 수 있을까.py">
+        <entry file="file://$PROJECT_DIR$/SSAFY/D3/4522. 세상의 모든 팰린드롬.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="54" column="47" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="54" selection-end-column="47" />
+            <state>
+              <caret selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSAFY/D3/7087. 문제 제목 붙이기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSAFY/D2/4864. 문자열 비교.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -113,17 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/a.py" />
-        <option value="$PROJECT_DIR$/asdf.py" />
-        <option value="$PROJECT_DIR$/extra_money.py" />
-        <option value="$PROJECT_DIR$/babyjin.py" />
-        <option value="$PROJECT_DIR$/my_sort.py" />
-        <option value="$PROJECT_DIR$/my_counts.py" />
-        <option value="$PROJECT_DIR$/good_view.py" />
-        <option value="$PROJECT_DIR$/4828. min_max.py" />
-        <option value="$PROJECT_DIR$/4831. electric bus.py" />
-        <option value="$PROJECT_DIR$/4831. electric_bus.py" />
-        <option value="$PROJECT_DIR$/4834. number_card.py" />
         <option value="$PROJECT_DIR$/1208. flatten.py" />
         <option value="$PROJECT_DIR$/4835. 구간합.py" />
         <option value="$PROJECT_DIR$/연습장.py" />
@@ -159,77 +170,81 @@
         <option value="$PROJECT_DIR$/SSAFY/D3/4615. 오셀로 게임.py" />
         <option value="$PROJECT_DIR$/BAEKJOON/Bronze/B1/개미.py" />
         <option value="$PROJECT_DIR$/SSAFY/D2/1974. 스도쿠 검증.py" />
-        <option value="$PROJECT_DIR$/SSAFY/practice.py" />
         <option value="$PROJECT_DIR$/SSAFY/D3/1493. 수의 새로운 연산.py" />
         <option value="$PROJECT_DIR$/SSAFY/D2/1959. 두 개의 숫자열.py" />
+        <option value="$PROJECT_DIR$/free.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D2/문제1.py" />
+        <option value="$PROJECT_DIR$/[문제3] 농작물 수확.py" />
+        <option value="$PROJECT_DIR$/[문제2]페인팅로봇.py" />
+        <option value="$PROJECT_DIR$/SSAFY/practice.py" />
         <option value="$PROJECT_DIR$/SSAFY/D2/1979. 어디에 단어가 들어갈 수 있을까.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D3/1221. GNS.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D4/1258. 행렬찾기.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D4/1861. 정사각형 방.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D4/6109. 추억의 2048게임.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D2/4864. 문자열 비교.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D3/7087. 문제 제목 붙이기.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D2/4861. 회문.py" />
+        <option value="$PROJECT_DIR$/SSAFY/D3/4522. 세상의 모든 팰린드롬.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1198" />
-    <option name="width" value="729" />
+    <option name="x" value="1116" />
+    <option name="width" value="811" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SSAFY" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
-              <item name="Bronze" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SSAFY" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="D2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="BAEKJOON" type="462c0819:PsiDirectoryNode" />
-              <item name="Bronze" type="462c0819:PsiDirectoryNode" />
-              <item name="B1" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SSAFY" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="D3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SSAFY" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SSAFY" type="462c0819:PsiDirectoryNode" />
-              <item name="D2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SSAFY" type="462c0819:PsiDirectoryNode" />
-              <item name="D3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="SSAFY" type="462c0819:PsiDirectoryNode" />
-              <item name="D4" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="SSAFY" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="D4" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,8 +263,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1979. 어디에 단어가 들어갈 수 있을까">
-    <configuration name="1493. 수의 새로운 연산" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.4522. 세상의 모든 팰린드롬">
+    <configuration name="1221. GNS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -261,49 +276,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D3/1493. 수의 새로운 연산.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1959. 두 개의 숫자열" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D2/1959. 두 개의 숫자열.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1974. 스도쿠 검증" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D2/1974. 스도쿠 검증.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D3/1221. GNS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +306,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4522. 세상의 모든 팰린드롬" type="PythonConfigurationType" factoryName="Python">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -341,11 +314,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/practice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D3/4522. 세상의 모든 팰린드롬.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7087. 문제 제목 붙이기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D3/7087. 문제 제목 붙이기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="[문제2]페인팅로봇" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/[문제2]페인팅로봇.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -355,19 +370,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.practice" />
-      <item itemvalue="Python.1974. 스도쿠 검증" />
+      <item itemvalue="Python.4522. 세상의 모든 팰린드롬" />
+      <item itemvalue="Python.1221. GNS" />
+      <item itemvalue="Python.7087. 문제 제목 붙이기" />
       <item itemvalue="Python.1979. 어디에 단어가 들어갈 수 있을까" />
-      <item itemvalue="Python.1493. 수의 새로운 연산" />
-      <item itemvalue="Python.1959. 두 개의 숫자열" />
+      <item itemvalue="Python.[문제2]페인팅로봇" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7087. 문제 제목 붙이기" />
+        <item itemvalue="Python.1221. GNS" />
         <item itemvalue="Python.1979. 어디에 단어가 들어갈 수 있을까" />
-        <item itemvalue="Python.1959. 두 개의 숫자열" />
-        <item itemvalue="Python.1493. 수의 새로운 연산" />
-        <item itemvalue="Python.1974. 스도쿠 검증" />
-        <item itemvalue="Python.practice" />
+        <item itemvalue="Python.[문제2]페인팅로봇" />
       </list>
     </recent_temporary>
   </component>
@@ -394,15 +408,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1198" y="0" width="729" height="1047" extended-state="0" />
+    <frame x="1116" y="0" width="811" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29232997" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20957309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3135965" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31030703" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
@@ -419,19 +433,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a.py" />
-    <entry file="file://$PROJECT_DIR$/my_sort.py" />
-    <entry file="file://$PROJECT_DIR$/good_view.py" />
-    <entry file="file://$PROJECT_DIR$/extra_money.py" />
-    <entry file="file://$PROJECT_DIR$/babyjin.py" />
-    <entry file="file://$PROJECT_DIR$/my_counts.py" />
-    <entry file="file://$PROJECT_DIR$/4834. number_card.py" />
-    <entry file="file://$PROJECT_DIR$/4828. min_max.py" />
-    <entry file="file://$PROJECT_DIR$/1208. flatten.py" />
-    <entry file="file://$PROJECT_DIR$/4834. 숫자카드.py" />
-    <entry file="file://$PROJECT_DIR$/연습장.py" />
-    <entry file="file://$PROJECT_DIR$/study.py" />
-    <entry file="file://$PROJECT_DIR$/이웃한 요소와의 차의 절대값.py" />
     <entry file="file://$PROJECT_DIR$/practice2.py" />
     <entry file="file://$PROJECT_DIR$/4835. 구간합.py" />
     <entry file="file://$PROJECT_DIR$/1209. Sum.py" />
@@ -493,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSAFY/D2/1974. 스도쿠 검증.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SSAFY/D3/6190. 단조 증가하는 수.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -514,22 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SSAFY/D3/1493. 수의 새로운 연산.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BAEKJOON/Bronze/B1/개미.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1580986050988" expanded="true" signature="18:21" ph="..." />
-            <marker date="1580986050988" expanded="true" signature="39:41" ph="..." />
-            <marker date="1580986050988" expanded="true" signature="61:63" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,24 +522,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/[문제3] 농작물 수확.py" />
+    <entry file="file://$PROJECT_DIR$/[문제2]페인팅로봇.py" />
+    <entry file="file://$PROJECT_DIR$/SSAFY/D2/문제1.py" />
+    <entry file="file://$PROJECT_DIR$/asd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/free.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D2/1974. 스도쿠 검증.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="29" lean-forward="true" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D3/1493. 수의 새로운 연산.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SSAFY/D2/1959. 두 개의 숫자열.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="38" lean-forward="true" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="266">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SSAFY/practice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SSAFY/D2/1979. 어디에 단어가 들어갈 수 있을까.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" column="47" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="54" selection-end-column="47" />
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D3/1221. GNS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="11" lean-forward="true" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D4/1861. 정사각형 방.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D4/1258. 행렬찾기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D4/6109. 추억의 2048게임.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D2/4864. 문자열 비교.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D3/7087. 문제 제목 붙이기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D2/4861. 회문.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSAFY/D3/4522. 세상의 모든 팰린드롬.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>

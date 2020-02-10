@@ -13,7 +13,6 @@ for t in range(1, test+1):
                 c.append(b)
                 b = 0
                 a +=1
-        print(c)
         while d != N:
             if data[d][i] == 1:
                 e += 1
