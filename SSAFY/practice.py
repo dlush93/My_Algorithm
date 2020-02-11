@@ -1,4 +1,3 @@
- p = "mor"
- txt = "good morning"
- i = 0
- j = 0
+a = [1,2,3,4,5,4,3,2,1]
+b = a[-1::-1]
+print(b)
