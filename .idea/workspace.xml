@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acfdfc3d-ebe6-494b-a70b-b7356308f423" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAEKJOON/2615. 오목.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAEKJOON/S5/수이어가기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAEKJOON/Silver/S5/수이어가기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSAFY/수업/asd.py" beforeDir="false" afterPath="$PROJECT_DIR$/SSAFY/수업/asd.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Stub" />
         <option value="Python Script" />
       </list>
     </option>
@@ -22,7 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Y7IlrbSpB9efzCVLu9decWkknO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,8 +39,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.1946. 간단한 압축 풀기">
-    <configuration name="1945. 간단한 소인수분해" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.1238. Contact">
+    <configuration name="1225. 암호생성기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,11 +48,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/SSAFY/D2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/SSAFY/D2/1945. 간단한 소인수분해.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D3/1225. 암호생성기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -55,7 +61,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1946. 간단한 압축 풀기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1238. Contact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +69,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/SSAFY/D2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/SSAFY/D2/1946. 간단한 압축 풀기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D4/1238. Contact.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4866. 괄호검사" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1285. 행렬찾기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +90,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/SSAFY/D2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/SSAFY/D2/4866. 괄호검사.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D4/1285. 행렬찾기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4871. 그래프 경로" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1486. 장훈이의 높은 선반" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +111,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/SSAFY/D2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/D4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/SSAFY/D2/4871. 그래프 경로.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/D4/1486. 장훈이의 높은 선반.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4873. 반복문자 지우기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm/SSAFY/D2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SSAFY/수업" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/SSAFY/D2/4873. 반복문자 지우기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SSAFY/수업/asd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,19 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.1945. 간단한 소인수분해" />
-      <item itemvalue="Python.1946. 간단한 압축 풀기" />
-      <item itemvalue="Python.4866. 괄호검사" />
-      <item itemvalue="Python.4871. 그래프 경로" />
-      <item itemvalue="Python.4873. 반복문자 지우기" />
+      <item itemvalue="Python.1486. 장훈이의 높은 선반" />
+      <item itemvalue="Python.asd" />
+      <item itemvalue="Python.1285. 행렬찾기" />
+      <item itemvalue="Python.1225. 암호생성기" />
+      <item itemvalue="Python.1238. Contact" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.1946. 간단한 압축 풀기" />
-        <item itemvalue="Python.1945. 간단한 소인수분해" />
-        <item itemvalue="Python.4866. 괄호검사" />
-        <item itemvalue="Python.4871. 그래프 경로" />
-        <item itemvalue="Python.4873. 반복문자 지우기" />
+        <item itemvalue="Python.1238. Contact" />
+        <item itemvalue="Python.1225. 암호생성기" />
+        <item itemvalue="Python.1486. 장훈이의 높은 선반" />
+        <item itemvalue="Python.1285. 행렬찾기" />
+        <item itemvalue="Python.asd" />
       </list>
     </recent_temporary>
   </component>
@@ -170,9 +176,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="352" y="77" key="SettingsEditor" timestamp="1582287440106">
+    <state x="904" y="99" key="#Notifications" timestamp="1582855726233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="352" y="77" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582287440106" />
+    <state x="904" y="99" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1582855726233" />
+    <state width="754" height="267" key="GridCell.Tab.0.bottom" timestamp="1582858705013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="754" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582858705013" />
+    <state width="754" height="267" key="GridCell.Tab.0.center" timestamp="1582858705013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="754" height="267" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582858705013" />
+    <state width="754" height="267" key="GridCell.Tab.0.left" timestamp="1582858705013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="754" height="267" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582858705013" />
+    <state width="754" height="267" key="GridCell.Tab.0.right" timestamp="1582858705013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="754" height="267" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582858705013" />
+    <state x="610" y="79" key="SettingsEditor" timestamp="1582855746902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="610" y="79" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582855746902" />
   </component>
 </project>
