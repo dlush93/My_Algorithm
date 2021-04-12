@@ -1,0 +1,5 @@
+N = int(input())
+point = list(map(int, input().split()))
+max_point = max(point)
+new_average = sum(point)*100/(max_point*N)
+print(new_average)

@@ -1,4 +1,15 @@
 N = int(input())
-data = [[0,0]] + [list(map(int, input().split())) for i in range(N)]
-max_benefit = 0
-for i in range(1, N+1):
+t = []
+p = []
+dp = [0]*(N+1)
+for i in range(N):
+    T, P = map(int, input().split())
+    t.append(T)
+    p.append(P)
+    dp[i] = P
+for i in range(N-1, -1, -1):
+    if i + t[i] > N:
+        dp[i] = dp[i+1]
+    else:
+        dp[i] = max(dp[i+1], p[i]+dp[i + t[i]])
+print(dp[0])
