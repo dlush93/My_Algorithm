@@ -1,13 +1,14 @@
 def solution(n, lost, reserve):
-    answer = n -len(lost)
-    for l in lost:
-        if l in reserve:
+    reserve_possible = list(set(reserve) - set(lost))
+    no_wear = list(set(lost) - set(reserve))
+    answer = n - len(no_wear)
+    for n in no_wear:
+        if n-1 in reserve_possible:
             answer += 1
-            reserve.remove(l)
-        elif l-1 in reserve:
+            reserve_possible.remove(n-1)
+        elif n+1 in reserve_possible:
             answer += 1
-            reserve.remove(l-1)
-        elif l+1 in reserve:
-            answer += 1
-            reserve.remove(l+1)
+            reserve_possible.remove(n+1)
     return answer
+
+print(solution(5, [2, 4], [3]))
