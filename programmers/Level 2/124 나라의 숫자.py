@@ -1,14 +1,12 @@
 def solution(n):
-    answer = ''
-    while n//3 != 0:
-        remain = n%3
-        n = n//3
-        if remain in (1, 2):
-            answer = str(remain) + answer
-        else:
-            answer = '4' + answer
-        if 1 < n < 3:
-            answer = str(n) + answer
+    answer = 0
+    temp = []
+    div = divmod(n, 3)
+    temp.append(div[1])
+    while div[0] != 0:
+        div = divmod(div[0], 3)
+        temp.append(div[1])
+    print(temp)
+    return str(answer)
 
-    return answer
-print(solution(1))
+print(solution(3))
