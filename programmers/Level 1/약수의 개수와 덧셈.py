@@ -1,13 +1,3 @@
 def solution(left, right):
-    answer = 0
-    for num in range(left, right + 1):
-        cnt = 0
-        for i in range(1, num + 1):
-            if num % i == 0:
-                cnt += 1
-        if cnt % 2:
-            answer -= num
-        else:
-            answer += num
-
+    answer = sum([-1*i if sum([1 for j in range(1, i+1) if not i%j])%2 else i for i in range(left, right+1)])
     return answer
