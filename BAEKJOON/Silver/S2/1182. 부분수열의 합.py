@@ -1,21 +1,18 @@
-import sys
-input = sys.stdin.readline
-
-
-def part_sum(value, k):
+def backtracking(arr, n):
     global cnt
-    if k == N:
-        if value == S:
+    if n == N:
+        if sum(arr) == S and len(arr) != 0:
             cnt += 1
-    else:
-        part_sum(value+array[k], k+1)
-        part_sum(value, k+1)
+        return
+
+    arr.append(num[n])
+    backtracking(arr, n+1)
+    arr.pop()
+    backtracking(arr, n+1)
 
 
 N, S = map(int, input().split())
-array = list(map(int, input().split()))
+num = list(map(int, input().split()))
 cnt = 0
-part_sum(0, 0)
-if S == 0:
-    cnt -= 1
+backtracking([], 0)
 print(cnt)

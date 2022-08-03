@@ -1,34 +1,34 @@
-def backtracking(num, cnt, pl, mi, mu, di):
-    global max_num, min_num
-    if pl + mi + mu + di == 0:
-        if num > max_num:
-            max_num = num
-        if num < min_num:
-            min_num = num
-        return
+def backtracking(value, cnt):
+    global max_value, min_value
+    if cnt == N:
+        max_value = max(max_value, value)
+        min_value = min(min_value, value)
 
-    if pl > 0:
-        backtracking(num+nums[cnt], cnt+1, pl-1, mi, mu, di)
-    if mi > 0:
-        backtracking(num-nums[cnt], cnt+1, pl, mi-1, mu, di)
-    if mu > 0:
-        backtracking(num*nums[cnt], cnt+1, pl, mi, mu-1, di)
-    if di > 0:
-        if num < 0:
-            backtracking(((-1*num)//nums[cnt])*-1, cnt+1, pl, mi, mu, di-1)
+    if operators[0] > 0:
+        operators[0] -= 1
+        backtracking(value+num[cnt], cnt+1)
+        operators[0] += 1
+    if operators[1] > 0:
+        operators[1] -= 1
+        backtracking(value-num[cnt], cnt+1)
+        operators[1] += 1
+    if operators[2] > 0:
+        operators[2] -= 1
+        backtracking(value*num[cnt], cnt+1)
+        operators[2] += 1
+    if operators[3] > 0:
+        operators[3] -= 1
+        if value < 0:
+            backtracking((value*-1)//num[cnt]*-1, cnt + 1)
         else:
-            backtracking(num//nums[cnt], cnt + 1, pl, mi, mu, di - 1)
+            backtracking(value//num[cnt], cnt+1)
+        operators[3] += 1
 
 
 N = int(input())
-nums = list(map(int, input().split()))
-plus, minus, mul, div = map(int, input().split())
-min_num = 1000000000
-max_num = -1000000000
-backtracking(nums[0], 1, plus, minus, mul, div)
-if plus + minus + mul + div == 0:
-    print(max(nums))
-    print(min(nums))
-else:
-    print(max_num)
-    print(min_num)
+num = list(map(int, input().split()))
+operators = list(map(int, input().split()))
+max_value, min_value = -1000000000, 1000000000
+backtracking(num[0], 1)
+print(max_value)
+print(min_value)

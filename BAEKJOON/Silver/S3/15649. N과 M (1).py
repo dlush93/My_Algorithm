@@ -4,17 +4,15 @@ def backtracking(cnt):
         return
 
     for i in range(1, N+1):
-        if chk_list[i]:
-            continue
-
-        chk_list[i] = True
-        arr.append(i)
-        backtracking(cnt+1)
-        arr.pop()
-        chk_list[i] = False
+        if i not in num_set:
+            num_set.add(i)
+            arr.append(i)
+            backtracking(cnt+1)
+            arr.pop()
+            num_set.discard(i)
 
 
 N, M = map(int, input().split())
-chk_list = [False] * (N+1)
+num_set = set()
 arr = []
 backtracking(0)

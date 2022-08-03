@@ -1,6 +1,6 @@
-def backtracking(cnt):
-    if len(arr) > 1:
-        if arr[-1] < arr[-2]:
+def backtracking(arr, cnt):
+    if cnt > 1:
+        if arr[-2] > arr[-1]:
             return
     if cnt == M:
         print(*arr)
@@ -8,10 +8,9 @@ def backtracking(cnt):
 
     for i in range(1, N+1):
         arr.append(i)
-        backtracking(cnt+1)
+        backtracking(arr, cnt+1)
         arr.pop()
 
 
 N, M = map(int, input().split())
-arr = []
-backtracking(0)
+backtracking([], 0)

@@ -1,21 +1,21 @@
 def backtracking(cnt):
-    if len(arr) > 1 and arr[-1] < arr[-2]:
-        return
+    if cnt > 1:
+        if arr[-2] > arr[-1]:
+            return
     if cnt == M:
         print(*arr)
         return
 
     for i in range(1, N+1):
-        if chk_list[i]:
-            continue
-        chk_list[i] = True
-        arr.append(i)
-        backtracking(cnt+1)
-        arr.pop()
-        chk_list[i] = False
+        if num[i]:
+            num[i] = 0
+            arr.append(i)
+            backtracking(cnt+1)
+            arr.pop()
+            num[i] = 1
 
 
 N, M = map(int, input().split())
-chk_list = [False]*(N+1)
 arr = []
+num = [1 for _ in range(N+1)]
 backtracking(0)

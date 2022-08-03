@@ -1,45 +1,47 @@
-import sys, time
+import sys
+from collections import deque
 input = sys.stdin.readline
-front_idx = 0
-back_idx = -1
-length = 0
-q = []
+
+front, back = 0, 0
+deque = [None for _ in range(10000)]
 for i in range(int(input())):
     order = list(input().split())
     if order[0] == 'push_front':
-        q.insert(front_idx, order[1])
-        length += 1
+        if deque[front]:
+            front -= 1
+        deque[front] = order[1]
     elif order[0] == 'push_back':
-        q.insert(back_idx, order[1])
-        length += 1
+        if deque[back]:
+            back += 1
+        deque[back] = order[1]
     elif order[0] == 'pop_front':
-        if length:
-            print(q[front_idx])
-            front_idx += 1
-            length -= 1
+        if deque[front]:
+            print(deque[front])
+            deque[front] = None
+            front += 1
         else:
             print(-1)
     elif order[0] == 'pop_back':
-        if length:
-            print(q[back_idx])
-            back_idx -= 1
-            length -= 1
+        if deque[back]:
+            print(deque[back])
+            deque[back] = None
+            back -= 1
         else:
             print(-1)
     elif order[0] == 'size':
-        print(length)
+        print(back-front)
     elif order[0] == 'empty':
-        if length:
-            print(0)
-        else:
+        if front == back:
             print(1)
+        else:
+            print(0)
     elif order[0] == 'front':
-        if length:
-            print(q[front_idx])
+        if deque[front]:
+            print(deque[front])
         else:
             print(-1)
     elif order[0] == 'back':
-        if length:
-            print(q[back_idx])
+        if deque[back]:
+            print(deque[back])
         else:
             print(-1)

@@ -54,3 +54,24 @@ for i in range(L):
     X, C = input().split()
     direction.append([int(X), C])
 print(snake())
+#
+# def eat(snake, direc):
+#     pass
+#
+# def move(snake, direc):
+#
+#
+# N = int(input())
+# K = int(input())
+# board = [[0 for _ in range(N)] for _ in range(N)]
+# for _ in range(K):
+#     a, b = map(int, input().split())
+#     board[a-1][b-1] = 'a'
+# L = int(input())
+# board[0][0] = 's'
+# snake = [[0, 0]]
+# dx, dy = [0, 1, 0, -1], [1, 0, -1, 0]
+#
+# for _ in range(L):
+#     time, direc = input().split()
+
